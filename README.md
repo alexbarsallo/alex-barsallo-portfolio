@@ -1,1 +1,96 @@
-# alex-barsallo-portfolio
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Barsallo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+    }
+    header, footer {
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #1a1a1a;
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .about, .contact {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+    }
+    footer a {
+      color: #1a1a1a;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alex Barsallo</h1>
+    <p>Fotografías diversas que cuentan historias</p>
+  </header>
+
+  <nav>
+    <a href="#galeria">Galería</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="galeria" class="gallery">
+    <!-- Sustituye los siguientes src por tus imágenes -->
+    <img src="https://via.placeholder.com/600x400?text=Foto+1" alt="Foto 1">
+    <img src="https://via.placeholder.com/600x400?text=Foto+2" alt="Foto 2">
+    <img src="https://via.placeholder.com/600x400?text=Foto+3" alt="Foto 3">
+    <!-- Agrega más imágenes aquí -->
+  </section>
+
+  <section id="sobre" class="about">
+    <h2>Sobre mí</h2>
+    <p>Soy Alex Barsallo, artista visual en formación y apasionado por el arte desde los 15 años. Actualmente estudio la Licenciatura en Artes Visuales, donde exploro distintas formas de expresión, con la fotografía como uno de mis principales medios. Mi trabajo abarca una mirada diversa, buscando capturar atmósferas, emociones y fragmentos de lo cotidiano a través de la imagen.</p>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <p>Instagram: <a href="https://instagram.com/alexbarsallo.art" target="_blank">@alexbarsallo.art</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alex Barsallo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
